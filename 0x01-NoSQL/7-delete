@@ -1,2 +1,2 @@
 // Delete
-db.schhol.delete({ name="Holberton school" })
+db.schhol.deleteOne({ name: "Holberton school" })
