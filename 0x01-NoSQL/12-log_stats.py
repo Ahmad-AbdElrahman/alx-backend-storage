@@ -7,7 +7,6 @@ some stats about Nginx logs stored in MongoDB.
 from pymongo import MongoClient
 
 
-
 methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 myclient = MongoClient()
 db = myclient["logs"]
