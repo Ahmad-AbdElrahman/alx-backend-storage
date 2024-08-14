@@ -23,7 +23,7 @@ def stats_logs() -> None:
 
     for method in methods:
         print(
-            "\tmethod {}: {}".format(
+            "    method {}: {}".format(
                 method, nginx.count_documents({"method": method}))
         )
 
@@ -35,4 +35,3 @@ def stats_logs() -> None:
 
 if __name__ == "__main__":
     stats_logs()
-    
